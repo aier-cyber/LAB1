@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.28.3)
+project(test)
+option(TYPE_DOUBLE "Use double" OFF)
+if(TYPE_DOUBLE) 
+    add_definitions(-DDOUBLE_TYPE)
+endif()
+add_executable(testname src/main.cpp)

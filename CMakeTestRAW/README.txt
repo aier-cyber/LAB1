@@ -11,4 +11,4 @@ cmake -DTYPE_DOUBLE=OFF ..
 cmake --build . --config Release --target testname
 Release\testname.exe
 
-(с double 0, с float 0.154799)
+(результат с double 0, с float 0.154799)
